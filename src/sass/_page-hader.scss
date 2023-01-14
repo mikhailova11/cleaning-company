@@ -1,0 +1,61 @@
+
+.logo,
+.main-nav__link,
+.contacts-box__link{
+    font-family: Menlo;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000;
+}
+.main-nav__link:hover,
+.main-nav__link:focus{
+    color: rgb(106, 105, 105);
+}
+.contacts-box__link{
+    color: rgb(106, 105, 105);
+    text-transform: none;
+}
+.contacts-box__link:hover,
+.contacts-box__link:focus{
+    color:rgb(8, 237, 142);
+}
+.logo__part{
+    color:rgb(8, 237, 142);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+.contacts-box{
+    display: flex;
+    text-align: end;
+}
+.main-nav__item,
+.contacts-box__list{
+    display: flex;
+    margin-left: 20px;
+}
+.main-nav__list{
+    justify-content: center;
+    align-items: center;
+}
+.main-nav__list:not(:last-child),
+.contacts-box{
+    margin-right: 20px;
+
+}
+.btn{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

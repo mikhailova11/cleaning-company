@@ -1,0 +1,46 @@
+.price{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.price-title{
+    font-family: Menlo;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+.price_title_container{
+    margin-right: auto;
+    margin-left: auto;
+}
+.price_description{
+    font-family: Menlo;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.price_description_atention{
+    font-family: Menlo;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(255, 10, 10);
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.price_description_item{
+    font-family: Menlo;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(8, 237, 142);
+  
+}
+
