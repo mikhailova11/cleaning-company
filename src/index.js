@@ -19,7 +19,6 @@ function onChangeForm(e){
         if(target.tagName === "BUTTON"){
   
         const res = (result*quantityBath)+(result*quantityRoom);
-                    console.log(res)
                     summaServicesEl.textContent = `${res} `;
                 return
     } else if (target.tagName === "SELECT") { 
