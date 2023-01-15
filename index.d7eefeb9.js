@@ -1,0 +1,2 @@
+!function(){var e=0,t=document.querySelector(".minus-bath"),n=document.querySelector(".plus-bath"),c=document.querySelector("#valueBath");t.addEventListener("click",(function(){e-=1,c.textContent=e})),n.addEventListener("click",(function(){e+=1,c.textContent=e}));var u=0,a=document.querySelector("#valueSummaServices");summaCalculateBtn=document.querySelector(".calculate-summa"),summaCalculateBtn.addEventListener("click",(function(e,t){u=e+t,a.textContent=u}))}();
+//# sourceMappingURL=index.d7eefeb9.js.map

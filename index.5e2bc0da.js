@@ -1,0 +1,2 @@
+let e=0;const t=document.querySelector(".minus-bath"),n=document.querySelector(".plus-bath"),c=document.querySelector("#valueBath");t.addEventListener("click",(function(){e-=1,c.textContent=e})),n.addEventListener("click",(function(){e+=1,c.textContent=e}));let u=0;const l=document.querySelector("#valueSummaServices");summaCalculateBtn=document.querySelector(".calculate-summa"),summaCalculateBtn.addEventListener("click",(function(e,t){u=e+t,l.textContent=u}));
+//# sourceMappingURL=index.5e2bc0da.js.map
